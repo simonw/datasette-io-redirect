@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "alias": ["datasette.io"],
+  "routes": [
+    {
+      "src": "/",
+      "status": 302,
+      "headers": { "Location": "https://docs.datasette.io/" }
+    }
+  ]
+}
+
